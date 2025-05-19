@@ -1,0 +1,1297 @@
+[19May2025 03:14:22.080] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[19May2025 03:14:22.085] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[19May2025 03:14:25.380] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[19May2025 03:14:25.417] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[19May2025 03:14:25.492] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[19May2025 03:14:25.533] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[19May2025 03:14:25.594] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/mods/Connector-1.0.0-beta.28+1.20.1.jar%23251%23254!/ Service=ModLauncher Env=SERVER
+[19May2025 03:14:26.439] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.5/fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
+[19May2025 03:14:26.441] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.5/javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[19May2025 03:14:26.443] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.5/lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[19May2025 03:14:26.444] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.5/mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[19May2025 03:14:27.995] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[19May2025 03:14:27.998] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/server/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.19.jar
+[19May2025 03:14:27.998] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 85 dependencies adding them to mods collection
+[19May2025 03:14:29.023] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
+[19May2025 03:14:31.226] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[19May2025 03:14:31.262] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[19May2025 03:14:31.291] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[19May2025 03:14:31.305] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/server/servidor_minecraft/mods/scripts as it did not exist.
+[19May2025 03:14:31.344] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[19May2025 03:14:33.176] [main/INFO] [dev.su5ed.sinytra.connector.service.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[19May2025 03:14:37.466] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 6113ms
+[19May2025 03:14:37.467] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[19May2025 03:14:40.510] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19May2025 03:14:42.009] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[19May2025 03:14:42.010] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[19May2025 03:14:42.088] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[19May2025 03:14:42.246] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 41 options available, 0 override(s) found
+[19May2025 03:14:42.299] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:42.308] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:42.366] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:42.589] [main/INFO] [Canary/]: Loaded configuration file for Canary: 123 options available, 0 override(s) found
+[19May2025 03:14:42.668] [main/INFO] [Puzzles Lib/]: Loading 205 mods:
+	- abridged 1.0.0
+	- additionalstructures 4.2.1
+	- advancementplaques 1.4.10
+	- aether 1.20.1-1.0.0-beta.2-neoforge
+	- alexsmobs 1.22.5
+	- ambientsounds 5.3.5
+	- animal_feeding_trough 1.0.3+1.20.1-forge
+	- aquamirae 6.API15
+	- aquatictorches 1.1.1
+	- architectury 9.1.12
+	- azurelib 2.0.11
+	- balm 7.1.4
+	- beautify 2.0.2
+	- better_totem_of_undying 1.1.0
+	- betteradvancements 0.3.2.161
+	- betterchunkloading 1.20.1-2.2
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.3
+	- betterf3 7.0.2
+	- betterfortresses 1.20-Forge-2.0.5
+	- betterfpsdist 1.20.1-4.1
+	- betterjungletemples 1.20-Forge-2.0.4
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- betterwitchhuts 1.20-Forge-3.0.3
+	- bn_blood_particles_mod 0.8.0
+	- bookshelf 20.1.6
+	- canary 0.2.7
+	- carryon 2.1.2.7
+	- cataclysm 1.0
+	- cfm 7.0.0-pre36
+	- citadel 2.4.8
+	- cloth_config 11.1.106
+	- clumps 12.0.0.3
+	- collective 7.9
+	- comforts 6.3.4+1.20.1
+	- commongroovylibrary 0.3.3
+	- connectormod 1.0.0-beta.28+1.20.1
+	- controlling 12.0.2
+	- coroutil 1.20.1-1.3.6
+	- craftable_enchanted_golden_apple 1.0.0
+	- creativecore 2.11.10
+	- creeperoverhaul 3.0.1
+	- cristellib 1.1.5
+	- ctov 3.3.6
+	- cumulus_menus 1.20.1-1.0.0-beta.1-neoforge
+	- cupboard 1.20.1-2.1
+	- curios 5.3.5+1.20.1
+	- deeperdarker 1.2.1
+	- diagonalblocks 8.0.3
+	- diagonalfences 8.1.2
+	- diagonalwindows 8.1.3
+	- doubledoors 5.1
+	- dragonmounts 1.1.5.b3
+	- duckling 3.0.0
+	- dungeons_arise 2.1.57-1.20.1
+	- dynamiclights 1.20.1.2
+	- easyanvils 8.0.1
+	- easymagic 8.0.1
+	- ecologics 2.2.0
+	- elevatorid 1.20.1-lex-1.9
+	- embeddium 0.2.10+mc1.20.1
+	- embeddiumplus 1.0.1
+	- endermanoverhaul 1.0.3
+	- enemyexpansion 2.3.1
+	- entityculling 1.6.2
+	- epicfight 20.7.4
+	- epicsamurai 0.0.32-1.20.1-neo
+	- explorify 1.3.0-mc1.20
+	- extragore 5.2.3.1
+	- fabric_api 0.90.7+1.10.3+1.20.1
+	- fabric_api_base 0.4.30+ef105b4977
+	- fabric_api_lookup_api_v1 1.6.35+67f9824077
+	- fabric_biome_api_v1 13.0.12+dd0389a577
+	- fabric_block_api_v1 1.0.10+0e6cb7f777
+	- fabric_block_view_api_v2 1.0.0+0767707077
+	- fabric_blockrenderlayer_v1 1.1.40+1d0da21e77
+	- fabric_client_tags_api_v1 1.1.1+5d6761b877
+	- fabric_command_api_v1 1.2.33+f71b366f77
+	- fabric_command_api_v2 2.2.12+561530ec77
+	- fabric_content_registries_v0 4.0.10+a670df1e77
+	- fabric_convention_tags_v1 1.5.4+fa3d1c0177
+	- fabric_data_generation_api_v1 12.3.2+369cb3a477
+	- fabric_dimensions_v1 2.1.53+8005d10d77
+	- fabric_entity_events_v1 1.5.22+b909fbe377
+	- fabric_events_interaction_v0 0.6.1+0d0bd5a777
+	- fabric_game_rule_api_v1 1.0.39+461110ab77
+	- fabric_item_api_v1 2.1.27+2272fc7f77
+	- fabric_item_group_api_v1 4.0.11+9801bf5177
+	- fabric_key_binding_api_v1 1.0.36+561530ec77
+	- fabric_lifecycle_events_v1 2.2.21+afab492177
+	- fabric_loot_api_v2 1.2.0+eb28f93e77
+	- fabric_message_api_v1 5.1.8+52cc178c77
+	- fabric_mining_level_api_v1 2.1.49+561530ec77
+	- fabric_model_loading_api_v1 1.0.2+142e25ab77
+	- fabric_models_v0 0.4.1+7c3892a477
+	- fabric_networking_api_v1 1.3.10+503a202477
+	- fabric_object_builder_api_v1 11.1.2+2174fc8477
+	- fabric_particles_v1 1.1.1+78e1ecb877
+	- fabric_recipe_api_v1 1.0.20+514a076577
+	- fabric_registry_sync_v0 2.3.2+1c0ea72177
+	- fabric_renderer_api_v1 3.2.0+1d29b44577
+	- fabric_renderer_indigo 1.5.0+67f9824077
+	- fabric_rendering_data_attachment_v1 0.3.36+a6081afc77
+	- fabric_rendering_fluids_v1 3.0.27+4ac5e37a77
+	- fabric_rendering_v1 3.0.7+1c0ea72177
+	- fabric_resource_conditions_api_v1 2.3.6+369cb3a477
+	- fabric_resource_loader_v0 0.11.9+142e25ab77
+	- fabric_screen_api_v1 2.0.7+45a670a577
+	- fabric_screen_handler_api_v1 1.3.29+561530ec77
+	- fabric_sound_api_v1 1.0.12+4f23bd8477
+	- fabric_transfer_api_v1 3.3.2+51502a0077
+	- fabric_transitive_access_wideners_v1 4.3.0+1880499877
+	- fastload 3.4.0
+	- ferritecore 6.0.1
+	- flib 0.0.11
+	- forge 47.3.5
+	- fpsreducer 1.20-2.5
+	- geckolib 4.3
+	- gml 4.0.9
+	- guardvillagers 1.20.1-1.6.3
+	- herdmentality 12.0.2
+	- hopo 1.1.8
+	- hoporp 1.3.7
+	- hopour 1.1.4
+	- hpm 2.6.3
+	- iceberg 1.1.16
+	- immersive_aircraft 0.6.2+1.20.1
+	- immersive_paintings 0.6.7+1.20.1
+	- imst 2.1.0
+	- incendium 5.3.3
+	- ironfurnaces 4.1.6
+	- jade 11.6.3
+	- jei 15.2.0.27
+	- journeymap 5.9.18
+	- kobolds 2.10.1
+	- make_bubbles_pop 0.2.0-forge
+	- mcwwindows 2.2.0
+	- minecraft 1.20.1
+	- mixinextras 0.3.1
+	- moonlight 1.20-2.8.67
+	- moremobvariants 1.2.2
+	- mousetweaks 2.25
+	- moveboats 3.1
+	- mr_stellarity 2.0d
+	- mr_tidal_towns 1.2
+	- mysticaloaktree 1.20-1.11
+	- naturalist 4.0.3
+	- nitrogen_internals 1.20.1-0.2.0-neoforge
+	- obscure_api 15
+	- paraglider 20.1.2
+	- patchouli 1.20.1-83-FORGE
+	- phenomena 2.3.2b-1.20.1
+	- pickupnotifier 8.0.0
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.11
+	- rare_ice 0.0NONE
+	- realmrpg_skeletons 1.0.3
+	- reeses_sodium_options 1.0.4
+	- regions_unexplored 0.5.3
+	- repurposed_structures 7.1.11+1.20.1-forge
+	- resourcefulconfig 2.1.0
+	- resourcefullib 2.1.19
+	- respawninganimals 8.1.1
+	- rubidium 0.7.1
+	- searchables 1.0.2
+	- shouldersurfing 1.20.1-2.8.1
+	- simpletomb 1.20.1-1.3.0
+	- simplyswords 1.51.5-1.20.1
+	- skyvillages 1.0.3
+	- smoothboot 0.0.3
+	- snuffles 1.0.7
+	- sophisticatedcore 0.5.108.504
+	- sound_physics_remastered 1.20.1-1.3.1
+	- spawn 1.20.1-1.0.2
+	- spectrelib 0.13.14+1.20.1
+	- structory 1.3.3
+	- structorytowers 1.0.5
+	- t_and_t 0.0NONE
+	- tectonic 2.1.1
+	- terrablender 3.0.0.169
+	- textrues_embeddium_options 0.1.3+mc1.20.1
+	- tia 1.20-1.1
+	- tlskincape 1.32
+	- travelersbackpack 9.1.11
+	- travelerstitles 1.20-Forge-4.0.1
+	- treasuredistance 1.20-1.2
+	- treechop 0.18.8
+	- twilightforest 4.3.1893
+	- unusualprehistory 1.5.0.3
+	- valhelsia_core 1.1.1
+	- valhelsia_furniture 1.1.2
+	- valhelsia_structures 1.20.1-1.1.0
+	- vanillaplustools 1.20-1.0.4
+	- vanillazoom 2.2
+	- visuality 2.0.2
+	- visualworkbench 8.0.0
+	- watut 1.20.1-1.0.13
+	- waystones 14.0.2
+	- williams_hedgehogs 1.0.0
+	- yet_another_config_lib_v3 3.5.0+1.20.1-forge
+	- yungsapi 1.20-Forge-4.0.2
+	- yungsbridges 1.20-Forge-4.0.3
+[19May2025 03:14:42.703] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:42.719] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:42.791] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:42.987] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[19May2025 03:14:42.993] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[19May2025 03:14:43.297] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:43.310] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:43.395] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:43.411] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[19May2025 03:14:44.546] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[19May2025 03:14:44.547] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[19May2025 03:14:44.548] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[19May2025 03:14:44.551] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[19May2025 03:14:44.553] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[19May2025 03:14:44.553] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[19May2025 03:14:46.909] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[19May2025 03:14:46.910] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin from mod deeperdarker
+[19May2025 03:14:47.465] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[19May2025 03:14:47.467] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[19May2025 03:14:47.468] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer from mod (unknown)
+[19May2025 03:14:47.471] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[19May2025 03:14:47.472] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[19May2025 03:14:47.473] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu from mod (unknown)
+[19May2025 03:14:47.475] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[19May2025 03:14:47.478] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel from mod (unknown)
+[19May2025 03:14:47.986] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.1).
+[19May2025 03:14:54.663] [main/WARN] [mixin/]: @Final field f_31427_:[I in epicfight.mixins.json:MixinWitherBoss from mod epicfight should be final
+[19May2025 03:14:54.663] [main/WARN] [mixin/]: @Final field f_31428_:[I in epicfight.mixins.json:MixinWitherBoss from mod epicfight should be final
+[19May2025 03:15:01.008] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[19May2025 03:15:01.570] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[19May2025 03:15:02.244] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for pickupnotifier:main
+[19May2025 03:15:02.758] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[19May2025 03:15:02.775] [modloading-worker-0/INFO] [realmayus.aquatictorches.AquaticTorches/]: Aquatic Torches loaded.
+[19May2025 03:15:02.908] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[19May2025 03:15:02.924] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[19May2025 03:15:03.068] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[19May2025 03:15:03.722] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[19May2025 03:15:03.934] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[19May2025 03:15:03.943] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[19May2025 03:15:04.375] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:basic_attack
+[19May2025 03:15:04.378] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:air_attack
+[19May2025 03:15:04.383] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:roll
+[19May2025 03:15:04.385] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:step
+[19May2025 03:15:04.386] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:knockdown_wakeup
+[19May2025 03:15:04.437] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:guard
+[19May2025 03:15:04.451] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:parrying
+[19May2025 03:15:04.463] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:impact_guard
+[19May2025 03:15:04.467] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for respawninganimals:main
+[19May2025 03:15:04.475] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:berserker
+[19May2025 03:15:04.483] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:death_harvest
+[19May2025 03:15:04.492] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:emergency_escape
+[19May2025 03:15:04.517] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:endurance
+[19May2025 03:15:04.518] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:forbidden_strength
+[19May2025 03:15:04.523] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:hypervitality
+[19May2025 03:15:04.524] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:stamina_pillager
+[19May2025 03:15:04.526] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:swordmaster
+[19May2025 03:15:04.535] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:technician
+[19May2025 03:15:04.549] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:sweeping_edge
+[19May2025 03:15:04.554] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:dancing_edge
+[19May2025 03:15:04.559] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:the_guillotine
+[19May2025 03:15:04.561] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:grasping_spire
+[19May2025 03:15:04.563] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:heartpiercer
+[19May2025 03:15:04.570] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:steel_whirlwind
+[19May2025 03:15:04.574] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:battojutsu
+[19May2025 03:15:04.578] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:battojutsu_passive
+[19May2025 03:15:04.584] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:rushing_tempo
+[19May2025 03:15:04.585] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:relentless_combo
+[19May2025 03:15:04.591] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:liechtenauer
+[19May2025 03:15:04.592] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:sharp_stab
+[19May2025 03:15:04.594] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:eviscerate
+[19May2025 03:15:04.605] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[19May2025 03:15:04.607] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.5 Initialized
+[19May2025 03:15:04.692] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:blade_rush
+[19May2025 03:15:04.695] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:wrathful_lighting
+[19May2025 03:15:04.699] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:tsunami
+[19May2025 03:15:04.704] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:everlasting_allegiance
+[19May2025 03:15:04.710] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:meteor_slam
+[19May2025 03:15:04.719] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:revelation
+[19May2025 03:15:04.727] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:demolition_leap
+[19May2025 03:15:04.737] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:phantom_ascent
+[19May2025 03:15:05.112] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[19May2025 03:15:05.202] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[19May2025 03:15:06.920] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[19May2025 03:15:06.922] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[19May2025 03:15:06.923] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[19May2025 03:15:06.924] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[19May2025 03:15:06.924] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[19May2025 03:15:06.924] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[19May2025 03:15:06.925] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[19May2025 03:15:07.303] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalblocks:main
+[19May2025 03:15:08.085] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalwindows:main
+[19May2025 03:15:08.461] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.9.
+[19May2025 03:15:08.777] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[19May2025 03:15:08.806] [modloading-worker-0/INFO] [Animal Feeding Trough/]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[19May2025 03:15:08.870] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[19May2025 03:15:08.880] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@41581c3f on thread Thread[modloading-worker-0,5,main]
+[19May2025 03:15:08.884] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23342!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23342!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23342!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23342!/:com.obscuria]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.5.jar%23409!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[19May2025 03:15:08.890] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[19May2025 03:15:09.094] [modloading-worker-0/INFO] [coroutil/]: fabric loader environment detected
+[19May2025 03:15:09.098] [modloading-worker-0/ERROR] [coroutil/]: ERROR: makeLoaderSpecificConfigData not implemented for active loader
+[19May2025 03:15:09.103] [modloading-worker-0/ERROR] [coroutil/]: ERROR: makeLoaderSpecificConfigData not implemented for active loader
+[19May2025 03:15:09.210] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[19May2025 03:15:10.110] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalfences:main
+[19May2025 03:15:10.143] [modloading-worker-0/ERROR] [coroutil/]: ERROR: makeLoaderSpecificConfigData not implemented for active loader
+[19May2025 03:15:10.351] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/server/servidor_minecraft/config/yacl.json5'
+[19May2025 03:15:10.372] [modloading-worker-0/INFO] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Starting...
+[19May2025 03:15:10.374] [modloading-worker-0/WARN] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Not supported on dedicated server!
+[19May2025 03:15:10.827] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[19May2025 03:15:10.828] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[19May2025 03:15:10.901] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@7aaed8a0 has been registered twice for the same name treechop:chop_wood.
+[19May2025 03:15:11.174] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalStainedGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 95ms
+[19May2025 03:15:12.033] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 41ms
+[19May2025 03:15:12.089] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 54ms
+[19May2025 03:15:12.224] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 132ms
+[19May2025 03:15:14.366] [main/INFO] [Moonlight/]: Initialized block sets in 39ms
+[19May2025 03:15:17.683] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server/servidor_minecraft/config/unusualprehistory-common.toml is not correct. Correcting
+[19May2025 03:15:17.684] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_sound_volume was corrected from 3.0 to its default, 3.0. 
+[19May2025 03:15:17.685] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_teen_sound_volume was corrected from 1.5 to its default, 1.5. 
+[19May2025 03:15:17.686] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rex_sound_volume was corrected from 0.5 to its default, 0.5. 
+[19May2025 03:15:18.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[19May2025 03:15:18.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: OUTDATED Current: 8.0.1 Target: 8.0.2
+[19May2025 03:15:18.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[19May2025 03:15:18.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: OUTDATED Current: 2.2.0 Target: 2.3.0
+[19May2025 03:15:18.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[19May2025 03:15:18.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.3 Target: 1.20-1.6.5
+[19May2025 03:15:18.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pickupnotifier] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/pickupnotifier.json
+[19May2025 03:15:18.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pickupnotifier] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[19May2025 03:15:18.758] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[19May2025 03:15:18.826] [modloading-worker-0/INFO] [net.tschipcraft.make_bubbles_pop.MakeBubblesPop/]: Make Bubbles Pop by Tschipcraft initialized!
+[19May2025 03:15:18.884] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19May2025 03:15:18.884] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[19May2025 03:15:18.885] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[19May2025 03:15:18.885] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[19May2025 03:15:18.885] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[19May2025 03:15:18.959] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading/]: betterchunkloading mod initialized
+[19May2025 03:15:19.165] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[19May2025 03:15:19.166] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[19May2025 03:15:19.167] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[19May2025 03:15:19.167] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[19May2025 03:15:19.270] [main/INFO] [journeymap/]: Initializing Packet Registries
+[19May2025 03:15:19.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.3.1 Target: 1.20.1-1.4.13
+[19May2025 03:15:19.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[19May2025 03:15:19.418] [main/INFO] [Moonlight/]: Initialized color sets in 124ms
+[19May2025 03:15:19.486] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: OUTDATED Current: 3.3.6 Target: 3.4.14
+[19May2025 03:15:19.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[19May2025 03:15:19.572] [modloading-worker-0/INFO] [epicfight/]: Start animation registration of epicfight
+[19May2025 03:15:19.574] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 0 to biped/living/idle
+[19May2025 03:15:19.575] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 1 to biped/living/walk
+[19May2025 03:15:19.576] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 2 to biped/living/fly
+[19May2025 03:15:19.577] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 3 to biped/living/creative_idle
+[19May2025 03:15:19.577] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 4 to biped/living/creative_fly
+[19May2025 03:15:19.593] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 5 to biped/living/creative_fly_backward
+[19May2025 03:15:19.597] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 6 to 
+[19May2025 03:15:19.597] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 7 to biped/living/hold_crossbow
+[19May2025 03:15:19.597] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 8 to biped/living/hold_map_twohand
+[19May2025 03:15:19.598] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 9 to biped/living/hold_map_offhand
+[19May2025 03:15:19.598] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 10 to biped/living/hold_map_mainhand
+[19May2025 03:15:19.604] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 11 to biped/living/hold_map_twohand_move
+[19May2025 03:15:19.606] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 12 to biped/living/hold_map_offhand_move
+[19May2025 03:15:19.606] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 13 to biped/living/hold_map_mainhand_move
+[19May2025 03:15:19.606] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 14 to biped/living/run
+[19May2025 03:15:19.606] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 15 to biped/living/sneak
+[19May2025 03:15:19.606] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 16 to biped/living/swim
+[19May2025 03:15:19.607] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 17 to biped/living/float
+[19May2025 03:15:19.607] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 18 to biped/living/kneel
+[19May2025 03:15:19.607] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 19 to biped/living/fall
+[19May2025 03:15:19.607] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 20 to biped/living/mount
+[19May2025 03:15:19.613] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 21 to biped/living/sit
+[19May2025 03:15:19.616] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 22 to biped/living/dig
+[19May2025 03:15:19.616] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 23 to biped/living/dig_offhand
+[19May2025 03:15:19.617] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 24 to 
+[19May2025 03:15:19.619] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 25 to biped/combat/bow_aim_mid
+[19May2025 03:15:19.620] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 26 to biped/combat/bow_shot_mid
+[19May2025 03:15:19.629] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 27 to biped/living/drink
+[19May2025 03:15:19.631] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 28 to biped/living/drink
+[19May2025 03:15:19.632] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 29 to biped/living/drink_offhand
+[19May2025 03:15:19.632] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 30 to biped/living/eat
+[19May2025 03:15:19.632] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 31 to biped/living/eat
+[19May2025 03:15:19.632] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 32 to biped/living/eat_offhand
+[19May2025 03:15:19.632] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 33 to biped/living/spyglass
+[19May2025 03:15:19.635] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 34 to biped/living/spyglass
+[19May2025 03:15:19.635] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 35 to biped/living/spyglass_offhand
+[19May2025 03:15:19.635] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 36 to biped/combat/crossbow_aim_mid
+[19May2025 03:15:19.637] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 37 to biped/combat/crossbow_shot_mid
+[19May2025 03:15:19.637] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 38 to biped/combat/crossbow_reload
+[19May2025 03:15:19.637] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 39 to biped/living/jump
+[19May2025 03:15:19.642] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 40 to biped/living/run_spear
+[19May2025 03:15:19.643] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 41 to biped/living/shield
+[19May2025 03:15:19.643] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 42 to biped/living/shield
+[19May2025 03:15:19.643] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 43 to biped/living/shield_mirror
+[19May2025 03:15:19.643] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 44 to biped/living/hold_greatsword
+[19May2025 03:15:19.646] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 45 to biped/living/hold_uchigatana_sheath
+[19May2025 03:15:19.647] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 46 to biped/living/hold_uchigatana
+[19May2025 03:15:19.647] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 47 to biped/living/hold_tachi
+[19May2025 03:15:19.647] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 48 to biped/living/hold_longsword
+[19May2025 03:15:19.648] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 49 to biped/living/hold_spear
+[19May2025 03:15:19.649] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 50 to biped/living/hold_dual
+[19May2025 03:15:19.650] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 51 to biped/living/hold_liechtenauer
+[19May2025 03:15:19.651] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 52 to biped/living/walk_greatsword
+[19May2025 03:15:19.653] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 53 to biped/living/walk_spear
+[19May2025 03:15:19.653] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 54 to biped/living/walk_uchigatana_sheath
+[19May2025 03:15:19.654] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 55 to biped/living/walk_uchigatana
+[19May2025 03:15:19.655] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 56 to biped/living/walk_twohand
+[19May2025 03:15:19.655] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 57 to biped/living/walk_longsword
+[19May2025 03:15:19.658] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 58 to biped/living/walk_liechtenauer
+[19May2025 03:15:19.658] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 59 to biped/living/run_greatsword
+[19May2025 03:15:19.658] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 60 to biped/living/run_uchigatana
+[19May2025 03:15:19.659] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 61 to biped/living/run_uchigatana_sheath
+[19May2025 03:15:19.659] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 62 to biped/living/run_dual
+[19May2025 03:15:19.660] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 63 to biped/living/run_longsword
+[19May2025 03:15:19.660] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 64 to biped/living/uchigatana_scrap
+[19May2025 03:15:19.672] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 65 to biped/living/liechtenauer_ready
+[19May2025 03:15:19.673] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 66 to biped/combat/hit_shield
+[19May2025 03:15:19.675] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 67 to biped/combat/hit_shield
+[19May2025 03:15:19.675] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 68 to biped/combat/hit_shield_mirror
+[19May2025 03:15:19.676] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 69 to biped/living/climb
+[19May2025 03:15:19.676] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 70 to biped/living/sleep
+[19May2025 03:15:19.676] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 71 to biped/combat/javelin_aim_mid
+[19May2025 03:15:19.676] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 72 to biped/combat/javelin_throw_mid
+[19May2025 03:15:19.678] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 73 to off_highest
+[19May2025 03:15:19.678] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 74 to off_middle
+[19May2025 03:15:19.678] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 75 to zombie/idle
+[19May2025 03:15:19.678] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 76 to zombie/walk
+[19May2025 03:15:19.678] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 77 to zombie/chase
+[19May2025 03:15:19.678] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 78 to creeper/idle
+[19May2025 03:15:19.679] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 79 to creeper/walk
+[19May2025 03:15:19.679] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 80 to enderman/idle
+[19May2025 03:15:19.679] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 81 to enderman/walk
+[19May2025 03:15:19.679] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 82 to enderman/rage_idle
+[19May2025 03:15:19.679] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 83 to enderman/rage_walk
+[19May2025 03:15:19.684] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 84 to wither_skeleton/walk
+[19May2025 03:15:19.684] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 85 to wither_skeleton/chase
+[19May2025 03:15:19.684] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 86 to wither_skeleton/idle
+[19May2025 03:15:19.688] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 87 to wither_skeleton/special_spawn
+[19May2025 03:15:19.690] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 88 to spider/idle
+[19May2025 03:15:19.691] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 89 to spider/crawl
+[19May2025 03:15:19.694] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 90 to iron_golem/idle
+[19May2025 03:15:19.695] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 91 to iron_golem/walk
+[19May2025 03:15:19.696] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 92 to hoglin/idle
+[19May2025 03:15:19.697] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 93 to hoglin/walk
+[19May2025 03:15:19.699] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 94 to illager/idle
+[19May2025 03:15:19.703] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 95 to illager/walk
+[19May2025 03:15:19.703] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 96 to illager/idle_aggressive
+[19May2025 03:15:19.703] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 97 to illager/chase
+[19May2025 03:15:19.704] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 98 to illager/spellcast
+[19May2025 03:15:19.704] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 99 to ravager/idle
+[19May2025 03:15:19.704] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 100 to ravager/walk
+[19May2025 03:15:19.705] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 101 to vex/idle
+[19May2025 03:15:19.705] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 102 to vex/flip
+[19May2025 03:15:19.705] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 103 to piglin/idle
+[19May2025 03:15:19.705] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 104 to piglin/walk
+[19May2025 03:15:19.707] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 105 to piglin/zombified_idle
+[19May2025 03:15:19.707] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 106 to piglin/zombified_walk
+[19May2025 03:15:19.708] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 107 to piglin/zombified_chase
+[19May2025 03:15:19.708] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 108 to piglin/celebrate1
+[19May2025 03:15:19.709] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 109 to piglin/celebrate2
+[19May2025 03:15:19.709] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 110 to piglin/celebrate3
+[19May2025 03:15:19.711] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 111 to piglin/admire
+[19May2025 03:15:19.711] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 112 to wither/idle
+[19May2025 03:15:19.712] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 113 to biped/skill/guard_spear
+[19May2025 03:15:19.712] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 114 to biped/skill/guard_sword
+[19May2025 03:15:19.713] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 115 to biped/skill/guard_dualsword
+[19May2025 03:15:19.713] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 116 to biped/skill/guard_greatsword
+[19May2025 03:15:19.713] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 117 to biped/skill/guard_uchigatana
+[19May2025 03:15:19.714] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 118 to biped/skill/guard_longsword
+[19May2025 03:15:19.715] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 119 to biped/skill/steel_whirlwind_charging
+[19May2025 03:15:19.723] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 120 to biped/skill/roll_forward
+[19May2025 03:15:19.723] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 121 to biped/skill/roll_backward
+[19May2025 03:15:19.724] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 122 to biped/skill/step_forward
+[19May2025 03:15:19.724] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 123 to biped/skill/step_backward
+[19May2025 03:15:19.725] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 124 to biped/skill/step_left
+[19May2025 03:15:19.725] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 125 to biped/skill/step_right
+[19May2025 03:15:19.726] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 126 to biped/skill/knockdown_wakeup_left
+[19May2025 03:15:19.728] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 127 to biped/skill/knockdown_wakeup_right
+[19May2025 03:15:19.728] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 128 to biped/skill/demolition_leap_charge
+[19May2025 03:15:19.729] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 129 to biped/skill/demolition_leap
+[19May2025 03:15:19.729] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 130 to biped/skill/phantom_ascent_forward
+[19May2025 03:15:19.729] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 131 to biped/skill/phantom_ascent_backward
+[19May2025 03:15:19.740] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 132 to biped/combat/fist_auto1
+[19May2025 03:15:19.744] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 133 to biped/combat/fist_auto2
+[19May2025 03:15:19.744] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 134 to biped/combat/fist_auto3
+[19May2025 03:15:19.745] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 135 to biped/combat/fist_dash
+[19May2025 03:15:19.746] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 136 to biped/combat/sword_auto1
+[19May2025 03:15:19.748] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 137 to biped/combat/sword_auto2
+[19May2025 03:15:19.748] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 138 to biped/combat/sword_auto3
+[19May2025 03:15:19.748] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 139 to biped/combat/sword_dash
+[19May2025 03:15:19.749] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 140 to biped/combat/greatsword_auto1
+[19May2025 03:15:19.749] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 141 to biped/combat/greatsword_auto2
+[19May2025 03:15:19.749] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 142 to biped/combat/greatsword_dash
+[19May2025 03:15:19.755] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 143 to biped/combat/spear_onehand_auto
+[19May2025 03:15:19.755] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 144 to biped/combat/spear_twohand_auto1
+[19May2025 03:15:19.756] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 145 to biped/combat/spear_twohand_auto2
+[19May2025 03:15:19.757] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 146 to biped/combat/spear_dash
+[19May2025 03:15:19.757] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 147 to 136
+[19May2025 03:15:19.757] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 148 to biped/combat/sword_auto4
+[19May2025 03:15:19.758] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 149 to biped/combat/tool_dash
+[19May2025 03:15:19.758] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 150 to biped/combat/axe_dash
+[19May2025 03:15:19.758] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 151 to biped/combat/sword_dual_auto1
+[19May2025 03:15:19.758] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 152 to biped/combat/sword_dual_auto2
+[19May2025 03:15:19.759] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 153 to biped/combat/sword_dual_auto3
+[19May2025 03:15:19.759] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 154 to biped/combat/sword_dual_dash
+[19May2025 03:15:19.759] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 155 to biped/combat/uchigatana_auto1
+[19May2025 03:15:19.759] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 156 to biped/combat/uchigatana_auto2
+[19May2025 03:15:19.763] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 157 to biped/combat/uchigatana_auto3
+[19May2025 03:15:19.763] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 158 to biped/combat/uchigatana_dash
+[19May2025 03:15:19.770] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 159 to biped/combat/uchigatana_sheath_auto
+[19May2025 03:15:19.773] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 160 to biped/combat/uchigatana_sheath_dash
+[19May2025 03:15:19.774] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 161 to biped/combat/axe_auto1
+[19May2025 03:15:19.774] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 162 to biped/combat/axe_auto2
+[19May2025 03:15:19.774] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 163 to biped/combat/longsword_auto1
+[19May2025 03:15:19.775] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 164 to biped/combat/longsword_auto2
+[19May2025 03:15:19.775] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 165 to biped/combat/longsword_auto3
+[19May2025 03:15:19.776] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 166 to biped/combat/longsword_dash
+[19May2025 03:15:19.776] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 167 to biped/combat/longsword_liechtenauer_auto1
+[19May2025 03:15:19.776] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 168 to biped/combat/longsword_liechtenauer_auto2
+[19May2025 03:15:19.778] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 169 to biped/combat/longsword_liechtenauer_auto3
+[19May2025 03:15:19.779] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 170 to biped/combat/tachi_auto1
+[19May2025 03:15:19.780] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 171 to biped/combat/tachi_auto2
+[19May2025 03:15:19.780] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 172 to biped/combat/tachi_auto3
+[19May2025 03:15:19.781] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 173 to biped/combat/tachi_dash
+[19May2025 03:15:19.781] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 174 to biped/combat/dagger_auto1
+[19May2025 03:15:19.781] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 175 to biped/combat/dagger_auto2
+[19May2025 03:15:19.782] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 176 to biped/combat/dagger_auto3
+[19May2025 03:15:19.783] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 177 to biped/combat/dagger_dash
+[19May2025 03:15:19.785] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 178 to biped/combat/dagger_dual_auto1
+[19May2025 03:15:19.786] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 179 to biped/combat/dagger_dual_auto2
+[19May2025 03:15:19.786] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 180 to biped/combat/dagger_dual_auto3
+[19May2025 03:15:19.787] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 181 to biped/combat/dagger_dual_auto4
+[19May2025 03:15:19.787] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 182 to biped/combat/dagger_dual_dash
+[19May2025 03:15:19.787] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 183 to biped/combat/trident_auto1
+[19May2025 03:15:19.788] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 184 to biped/combat/trident_auto2
+[19May2025 03:15:19.789] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 185 to biped/combat/trident_auto3
+[19May2025 03:15:19.790] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 186 to biped/combat/sword_airslash
+[19May2025 03:15:19.794] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 187 to biped/combat/sword_dual_airslash
+[19May2025 03:15:19.794] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 188 to biped/combat/uchigatana_airslash
+[19May2025 03:15:19.794] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 189 to biped/combat/uchigatana_sheath_airslash
+[19May2025 03:15:19.795] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 190 to biped/combat/spear_onehand_airslash
+[19May2025 03:15:19.795] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 191 to biped/combat/spear_twohand_airslash
+[19May2025 03:15:19.796] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 192 to biped/combat/longsword_airslash
+[19May2025 03:15:19.796] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 193 to biped/combat/greatsword_airslash
+[19May2025 03:15:19.796] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 194 to biped/combat/fist_airslash
+[19May2025 03:15:19.797] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 195 to biped/combat/dagger_airslash
+[19May2025 03:15:19.797] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 196 to 187
+[19May2025 03:15:19.798] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 197 to biped/combat/axe_airslash
+[19May2025 03:15:19.798] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 198 to biped/combat/sword_mount_attack
+[19May2025 03:15:19.799] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 199 to biped/combat/spear_mount_attack
+[19May2025 03:15:19.799] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 200 to biped/combat/mob_onehand1
+[19May2025 03:15:19.799] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 201 to biped/combat/mob_onehand2
+[19May2025 03:15:19.800] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 202 to biped/combat/mob_greatsword1
+[19May2025 03:15:19.802] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 203 to biped/combat/mob_tachi_special
+[19May2025 03:15:19.804] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 204 to biped/combat/mob_spear_onehand
+[19May2025 03:15:19.805] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 205 to biped/combat/mob_spear_twohand1
+[19May2025 03:15:19.806] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 206 to biped/combat/mob_spear_twohand2
+[19May2025 03:15:19.807] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 207 to biped/combat/mob_spear_twohand3
+[19May2025 03:15:19.808] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 208 to biped/combat/mob_sword_dual1
+[19May2025 03:15:19.810] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 209 to biped/combat/mob_sword_dual2
+[19May2025 03:15:19.811] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 210 to biped/combat/mob_sword_dual3
+[19May2025 03:15:19.812] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 211 to biped/combat/mob_longsword1
+[19May2025 03:15:19.814] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 212 to biped/combat/mob_longsword2
+[19May2025 03:15:19.814] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 213 to biped/combat/mob_uchigatana1
+[19May2025 03:15:19.815] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 214 to biped/combat/mob_uchigatana2
+[19May2025 03:15:19.816] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 215 to biped/combat/mob_uchigatana3
+[19May2025 03:15:19.817] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 216 to biped/combat/mob_dagger_onehand1
+[19May2025 03:15:19.818] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 217 to biped/combat/mob_dagger_onehand2
+[19May2025 03:15:19.819] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 218 to biped/combat/mob_dagger_onehand3
+[19May2025 03:15:19.821] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 219 to biped/combat/mob_dagger_twohand1
+[19May2025 03:15:19.821] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 220 to biped/combat/mob_dagger_twohand2
+[19May2025 03:15:19.822] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 221 to biped/combat/mob_throw
+[19May2025 03:15:19.825] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 222 to biped/skill/guard_sword_hit
+[19May2025 03:15:19.826] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 223 to biped/skill/guard_sword_hit_active1
+[19May2025 03:15:19.827] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 224 to biped/skill/guard_sword_hit_active2
+[19May2025 03:15:19.829] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 225 to biped/skill/guard_sword_hit_active3
+[19May2025 03:15:19.830] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 226 to biped/skill/guard_longsword_hit_active1
+[19May2025 03:15:19.830] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 227 to biped/skill/guard_longsword_hit_active2
+[19May2025 03:15:19.830] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 228 to biped/skill/guard_dualsword_hit
+[19May2025 03:15:19.830] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 229 to biped/skill/guard_break1
+[19May2025 03:15:19.830] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 230 to biped/skill/guard_break2
+[19May2025 03:15:19.831] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 231 to biped/skill/guard_longsword_hit
+[19May2025 03:15:19.831] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 232 to biped/skill/guard_spear_hit
+[19May2025 03:15:19.831] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 233 to biped/skill/guard_greatsword_hit
+[19May2025 03:15:19.831] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 234 to biped/skill/guard_uchigatana_hit
+[19May2025 03:15:19.831] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 235 to biped/skill/greatsword_slam
+[19May2025 03:15:19.841] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 236 to biped/skill/revelation_normal
+[19May2025 03:15:19.842] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 237 to biped/skill/revelation_twohand
+[19May2025 03:15:19.842] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 238 to biped/combat/hit_short
+[19May2025 03:15:19.843] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 239 to biped/combat/hit_long
+[19May2025 03:15:19.843] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 240 to biped/combat/hit_on_mount
+[19May2025 03:15:19.844] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 241 to biped/living/landing
+[19May2025 03:15:19.844] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 242 to biped/combat/knockdown
+[19May2025 03:15:19.845] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 243 to biped/living/death
+[19May2025 03:15:19.846] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 244 to creeper/hit_short
+[19May2025 03:15:19.846] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 245 to creeper/hit_long
+[19May2025 03:15:19.846] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 246 to creeper/death
+[19May2025 03:15:19.847] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 247 to enderman/hit_short
+[19May2025 03:15:19.847] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 248 to enderman/hit_long
+[19May2025 03:15:19.848] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 249 to enderman/neutralized
+[19May2025 03:15:19.848] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 250 to enderman/convert_rage
+[19May2025 03:15:19.849] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 251 to enderman/tp_kick1
+[19May2025 03:15:19.850] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 252 to enderman/tp_kick2
+[19May2025 03:15:19.851] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 253 to enderman/rush_kick
+[19May2025 03:15:19.852] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 254 to enderman/jump_kick
+[19May2025 03:15:19.852] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 255 to enderman/knee
+[19May2025 03:15:19.852] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 256 to enderman/kick_twice
+[19May2025 03:15:19.852] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 257 to enderman/grasp
+[19May2025 03:15:19.853] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 258 to enderman/death
+[19May2025 03:15:19.853] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 259 to enderman/teleport
+[19May2025 03:15:19.853] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 260 to dragon/idle
+[19May2025 03:15:19.863] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 261 to dragon/walk
+[19May2025 03:15:19.863] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 262 to dragon/fly
+[19May2025 03:15:19.863] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 263 to dragon/death
+[19May2025 03:15:19.864] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 264 to dragon/ground_to_fly
+[19May2025 03:15:19.871] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 265 to dragon/fly_to_ground
+[19May2025 03:15:19.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: OUTDATED Current: 1.4.10 Target: 1.6.9
+[19May2025 03:15:19.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[19May2025 03:15:19.889] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 266 to dragon/attack1
+[19May2025 03:15:19.891] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 267 to dragon/attack2
+[19May2025 03:15:19.893] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 268 to dragon/attack3
+[19May2025 03:15:19.893] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 269 to dragon/attack4
+[19May2025 03:15:19.894] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 270 to dragon/attack4_recovery
+[19May2025 03:15:19.894] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 271 to dragon/fireball
+[19May2025 03:15:19.894] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 272 to dragon/airstrike
+[19May2025 03:15:19.895] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 273 to dragon/backjump_prepare
+[19May2025 03:15:19.896] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 274 to dragon/backjump_move
+[19May2025 03:15:19.898] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 275 to dragon/backjump_recovery
+[19May2025 03:15:19.900] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 276 to dragon/crystal_link
+[19May2025 03:15:19.902] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 277 to dragon/neutralized
+[19May2025 03:15:19.904] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 278 to dragon/neutralized_recovery
+[19May2025 03:15:19.905] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 279 to spider/attack
+[19May2025 03:15:19.905] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 280 to spider/jump_attack
+[19May2025 03:15:19.907] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 281 to spider/hit
+[19May2025 03:15:19.907] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 282 to spider/neutralized
+[19May2025 03:15:19.908] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 283 to spider/death
+[19May2025 03:15:19.908] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 284 to iron_golem/attack1
+[19May2025 03:15:19.908] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 285 to iron_golem/attack2
+[19May2025 03:15:19.910] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 286 to iron_golem/attack3
+[19May2025 03:15:19.910] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 287 to iron_golem/attack4
+[19May2025 03:15:19.911] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 288 to iron_golem/death
+[19May2025 03:15:19.911] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 289 to illager/swing_axe1
+[19May2025 03:15:19.911] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 290 to illager/swing_axe2
+[19May2025 03:15:19.912] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 291 to illager/swing_axe3
+[19May2025 03:15:19.913] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 292 to piglin/death
+[19May2025 03:15:19.915] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 293 to hoglin/death
+[19May2025 03:15:19.915] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 294 to hoglin/attack
+[19May2025 03:15:19.915] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 295 to ravager/death
+[19May2025 03:15:19.915] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 296 to ravager/groggy
+[19May2025 03:15:19.916] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 297 to ravager/attack1
+[19May2025 03:15:19.916] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 298 to ravager/attack2
+[19May2025 03:15:19.916] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 299 to ravager/attack3
+[19May2025 03:15:19.916] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 300 to vex/hit
+[19May2025 03:15:19.916] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 301 to vex/death
+[19May2025 03:15:19.916] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 302 to vex/charge
+[19May2025 03:15:19.922] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 303 to vex/neutralized
+[19May2025 03:15:19.923] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 304 to witch/drink
+[19May2025 03:15:19.924] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 305 to wither_skeleton/sword_attack1
+[19May2025 03:15:19.924] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 306 to wither_skeleton/sword_attack2
+[19May2025 03:15:19.925] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 307 to wither_skeleton/sword_attack3
+[19May2025 03:15:19.926] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 308 to wither/rush
+[19May2025 03:15:19.937] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 309 to wither/death
+[19May2025 03:15:19.937] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 310 to wither/neutralized
+[19May2025 03:15:19.940] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 311 to wither/spell_wither_armor
+[19May2025 03:15:19.944] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 312 to wither/charging_blocked
+[19May2025 03:15:19.945] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 313 to wither/ghost_stand
+[19May2025 03:15:19.946] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 314 to wither/swirl
+[19May2025 03:15:19.947] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 315 to wither/laser
+[19May2025 03:15:19.951] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 316 to wither/backflip
+[19May2025 03:15:19.952] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 317 to zombie/attack1
+[19May2025 03:15:19.953] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 318 to zombie/attack2
+[19May2025 03:15:19.953] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 319 to zombie/attack3
+[19May2025 03:15:19.954] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 320 to biped/skill/sweeping_edge
+[19May2025 03:15:19.956] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 321 to biped/skill/dancing_edge
+[19May2025 03:15:19.956] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 322 to biped/skill/the_guillotine
+[19May2025 03:15:19.957] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 323 to biped/skill/heartpiercer
+[19May2025 03:15:19.957] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 324 to 146
+[19May2025 03:15:19.958] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 325 to biped/skill/grasping_spire_second
+[19May2025 03:15:19.959] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 326 to biped/skill/steel_whirlwind
+[19May2025 03:15:19.964] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 327 to biped/skill/battojutsu
+[19May2025 03:15:19.964] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 328 to biped/skill/battojutsu_dash
+[19May2025 03:15:19.964] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 329 to biped/skill/rushing_tempo1
+[19May2025 03:15:19.965] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 330 to biped/skill/rushing_tempo2
+[19May2025 03:15:19.965] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 331 to biped/skill/rushing_tempo3
+[19May2025 03:15:19.965] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 332 to biped/skill/relentless_combo
+[19May2025 03:15:19.965] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 333 to biped/skill/eviscerate_first
+[19May2025 03:15:19.965] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 334 to biped/skill/eviscerate_second
+[19May2025 03:15:19.965] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 335 to biped/skill/blade_rush_combo1
+[19May2025 03:15:19.980] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 336 to biped/skill/blade_rush_combo2
+[19May2025 03:15:19.980] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 337 to biped/skill/blade_rush_combo3
+[19May2025 03:15:19.980] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 338 to biped/interact/blade_rush_hit
+[19May2025 03:15:19.983] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 339 to biped/skill/blade_rush_execute
+[19May2025 03:15:19.990] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 340 to biped/skill/blade_rush_failed
+[19May2025 03:15:19.995] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 341 to biped/skill/blade_rush_try
+[19May2025 03:15:19.997] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 342 to biped/skill/wrathful_lighting
+[19May2025 03:15:19.997] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 343 to biped/skill/tsunami
+[19May2025 03:15:19.999] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 344 to biped/skill/tsunami_reinforced
+[19May2025 03:15:20.000] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 345 to biped/skill/everlasting_allegiance_call
+[19May2025 03:15:20.001] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 346 to biped/skill/everlasting_allegiance_catch
+[19May2025 03:15:20.001] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 347 to biped/skill/sharp_stab
+[19May2025 03:15:20.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[19May2025 03:15:20.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json
+[19May2025 03:15:20.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.2 Target: 1.3.4+mod
+[19May2025 03:15:20.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[19May2025 03:15:20.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA_OUTDATED Current: 1.0.2 Target: 1.0.3
+[19May2025 03:15:20.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[19May2025 03:15:20.958] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov/]: Got IMC []
+[19May2025 03:15:20.962] [modloading-worker-0/INFO] [com.choicetheorem.imst.imst/]: Got IMC []
+[19May2025 03:15:20.991] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: OUTDATED Current: 1.20.1-1.0.0-beta.1-neoforge Target: 1.20.1-1.0.1-neoforge
+[19May2025 03:15:20.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[19May2025 03:15:21.073] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.teamderpy.shouldersurfing.compatibility.ShoulderSurfingJadePlugin
+[19May2025 03:15:21.090] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[19May2025 03:15:21.095] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[19May2025 03:15:21.101] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[19May2025 03:15:21.108] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[19May2025 03:15:21.114] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[19May2025 03:15:21.192] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[19May2025 03:15:21.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[19May2025 03:15:21.204] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[19May2025 03:15:21.235] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[19May2025 03:15:21.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[19May2025 03:15:21.240] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[19May2025 03:15:21.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[19May2025 03:15:21.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[19May2025 03:15:21.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.11 Target: 9.1.16
+[19May2025 03:15:21.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [respawninganimals] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/respawninganimals.json
+[19May2025 03:15:21.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [respawninganimals] Found status: OUTDATED Current: 8.1.1 Target: 8.2.1
+[19May2025 03:15:21.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[19May2025 03:15:21.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[19May2025 03:15:21.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19May2025 03:15:21.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.5 Target: 47.4.0
+[19May2025 03:15:21.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Starting version check at https://raw.githubusercontent.com/Lothrazar/SimpleTomb/trunk/1.20/update.json
+[19May2025 03:15:21.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Found status: BETA Current: 1.20.1-1.3.0 Target: 1.3.0
+[19May2025 03:15:21.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [herdmentality] Starting version check at https://updates.blamejared.com/get?n=heardmentality&gv=1.20.1
+[19May2025 03:15:21.686] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.688] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.688] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.689] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.690] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.690] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.691] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.692] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.692] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.693] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.693] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.696] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.696] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.697] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.698] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.698] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.699] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.699] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.699] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.700] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.700] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.704] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.706] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.707] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.708] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.710] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.711] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.712] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [herdmentality] Found status: BETA_OUTDATED Current: 12.0.2 Target: 12.0.3
+[19May2025 03:15:21.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[19May2025 03:15:21.715] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.716] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.720] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.725] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.726] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.726] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.727] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.727] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.727] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.728] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.729] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.729] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.730] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.732] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:21.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: OUTDATED Current: 0.2.7 Target: 0.3.3
+[19May2025 03:15:21.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[19May2025 03:15:21.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.11 Target: 8.1.32
+[19May2025 03:15:21.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[19May2025 03:15:21.792] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[19May2025 03:15:21.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_stellarity] Starting version check at https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json
+[19May2025 03:15:21.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_stellarity] Found status: BETA_OUTDATED Current: 2.0d Target: 2.0e
+[19May2025 03:15:21.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[19May2025 03:15:21.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: OUTDATED Current: 1.20.1-1.0.0-beta.2-neoforge Target: 1.20.1-1.5.2-neoforge
+[19May2025 03:15:21.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[19May2025 03:15:21.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[19May2025 03:15:21.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[19May2025 03:15:22.070] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 20.1.6 Target: 20.2.13
+[19May2025 03:15:22.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[19May2025 03:15:22.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: OUTDATED Current: 4.2.1 Target: 4.2.2
+[19May2025 03:15:22.089] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[19May2025 03:15:22.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: UP_TO_DATE Current: 4.3.1893 Target: null
+[19May2025 03:15:22.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalblocks.json
+[19May2025 03:15:22.262] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Found status: BETA Current: 8.0.3 Target: null
+[19May2025 03:15:22.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalwindows] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalwindows.json
+[19May2025 03:15:22.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalwindows] Found status: OUTDATED Current: 8.1.3 Target: 8.1.5
+[19May2025 03:15:22.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[19May2025 03:15:22.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[19May2025 03:15:22.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[19May2025 03:15:22.307] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[19May2025 03:15:22.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[19May2025 03:15:22.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.3 Target: 12.0.0.4
+[19May2025 03:15:22.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[19May2025 03:15:22.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.10.3
+[19May2025 03:15:22.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [make_bubbles_pop] Starting version check at https://api.modrinth.com/updates/gPCdW0Wr/forge_updates.json
+[19May2025 03:15:22.670] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [make_bubbles_pop] Found status: OUTDATED Current: 0.2.0-forge Target: 0.3.0-forge
+[19May2025 03:15:22.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[19May2025 03:15:22.691] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.8.67 Target: null
+[19May2025 03:15:22.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.19.2/dev/updates.json
+[19May2025 03:15:22.924] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.5.jar%23408!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[19May2025 03:15:22.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[19May2025 03:15:22.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: OUTDATED Current: 1.1.16 Target: 1.1.25
+[19May2025 03:15:22.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalfences.json
+[19May2025 03:15:22.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Found status: OUTDATED Current: 8.1.2 Target: 8.1.5
+[19May2025 03:15:22.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Starting version check at https://api.modrinth.com/updates/betterf3/forge_updates.json
+[19May2025 03:15:23.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Found status: UP_TO_DATE Current: 7.0.2 Target: null
+[19May2025 03:15:31.885] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19May2025 03:15:32.290] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.291] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.291] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.292] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.292] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.292] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.292] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.293] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.293] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.293] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.294] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.294] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.294] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.295] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.295] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.295] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.296] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.296] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.296] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.297] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.299] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.299] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.299] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.300] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.300] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.301] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.301] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.301] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.302] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.302] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.302] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.303] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.303] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.303] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.304] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.304] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.305] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.305] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.305] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.306] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.306] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.306] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.597] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.597] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.598] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.599] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.599] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.599] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.600] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.600] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.600] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.600] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.600] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.600] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.601] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.601] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.601] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.603] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.603] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.604] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.604] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.605] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.605] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.606] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.607] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.607] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.608] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.608] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.609] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.610] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.610] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.611] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.611] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.612] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.612] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.612] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.612] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.613] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.613] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.613] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.614] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.615] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.615] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:32.616] [main/ERROR] [net.minecraft.Util/]: Entity valhelsia_structures:mossy_skeleton has no attributes
+[19May2025 03:15:39.304] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23407!/assets/.mcassetsroot' uses unexpected schema
+[19May2025 03:15:39.305] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23407!/data/.mcassetsroot' uses unexpected schema
+[19May2025 03:15:39.429] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[19May2025 03:15:39.433] [main/WARN] [Cristel Lib/]: T&T Waystone Patch Pack accepted!
+[19May2025 03:15:39.721] [main/ERROR] [net.minecraft.Util/]: Invalid path in pack: fokastudio:worldgen/biome/README.md, ignoring
+[19May2025 03:15:45.422] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[19May2025 03:15:45.424] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[19May2025 03:15:45.986] [Worker-Main1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_eyestalker as it is missing following references: #forge:is_end (from enemyexpansion-2.3.1-forge-1.20.1.jar)
+[19May2025 03:15:45.991] [Worker-Main1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:skreechers_can_spawn_wardens as it is missing following references: deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1.jar)
+[19May2025 03:15:46.002] [Worker-Main1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_flutterfly as it is missing following references: #forge:is_magical (from enemyexpansion-2.3.1-forge-1.20.1.jar)
+[19May2025 03:15:46.016] [Worker-Main2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/amethyst as it is missing following references: minecraft:amethyst_shard (from epicsamurai-0.0.32-1.20.1-neo.jar)
+[19May2025 03:15:46.052] [Worker-Main2/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{}]
+[19May2025 03:15:46.054] [Worker-Main2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list phenomena:no_basalt from phenomena:tags/worldgen/structure/no_basalt.json in data pack Phenomena-2.3.2c-1.20.jar
+java.lang.RuntimeException: No key values in MapLike[{}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:114) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[19May2025 03:15:46.115] [Worker-Main2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cataclysm:trap_block_not_detected as it is missing following references: cataclysm:ancient_remnant (from L_Enders_Cataclysm-1.39 -1.20.1.jar)
+[19May2025 03:15:46.234] [Worker-Main1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag eldritch_end:etyr_armor as it is missing following references: epicsamurai:etyrite_samurai_helmet (from epicsamurai-0.0.32-1.20.1-neo.jar), 
+	epicsamurai:etyrite_samurai_chestplate (from epicsamurai-0.0.32-1.20.1-neo.jar), 
+	epicsamurai:etyrite_samurai_leggings (from epicsamurai-0.0.32-1.20.1-neo.jar), 
+	epicsamurai:etyrite_samurai_boots (from epicsamurai-0.0.32-1.20.1-neo.jar)
+[19May2025 03:15:57.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_helmet as it's serializer returned null
+[19May2025 03:15:57.038] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_leggings as it's serializer returned null
+[19May2025 03:15:57.085] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_helmet_ritual as it's serializer returned null
+[19May2025 03:15:57.089] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_helmet_mechanical_crafting as it's serializer returned null
+[19May2025 03:15:57.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_chestplate_mechanical_crafting as it's serializer returned null
+[19May2025 03:15:57.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[19May2025 03:15:57.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:neptunium_samurai_boots as it's serializer returned null
+[19May2025 03:15:57.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:etyrite_samruai_chestplate_smithing as it's serializer returned null
+[19May2025 03:15:57.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:neptunium_samurai_chestplate as it's serializer returned null
+[19May2025 03:15:57.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[19May2025 03:15:57.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:neptunium_samurai_leggings as it's serializer returned null
+[19May2025 03:15:57.125] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:neptunium_samurai_helmet as it's serializer returned null
+[19May2025 03:15:57.136] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_repair_kit_mechanical_crafting as it's serializer returned null
+[19May2025 03:15:57.143] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:living_samruai_boots_array as it's serializer returned null
+[19May2025 03:15:57.144] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:living_samruai_boots_helmet as it's serializer returned null
+[19May2025 03:15:57.145] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:etyrite_samruai_leggings_smithing as it's serializer returned null
+[19May2025 03:15:57.150] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_leggings_ritual as it's serializer returned null
+[19May2025 03:15:57.151] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_boots as it's serializer returned null
+[19May2025 03:15:57.168] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unusualprehistory:trike_shield_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[19May2025 03:15:57.201] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[19May2025 03:15:57.202] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_leggings_mechanical_crafting as it's serializer returned null
+[19May2025 03:15:57.207] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_boots_ritual as it's serializer returned null
+[19May2025 03:15:57.216] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[19May2025 03:15:57.225] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:living_samruai_leggings_array as it's serializer returned null
+[19May2025 03:15:57.254] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:living_samruai_chestplate_array as it's serializer returned null
+[19May2025 03:15:57.256] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[19May2025 03:15:57.260] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:etyrite_samruai_helmet_smithing as it's serializer returned null
+[19May2025 03:15:57.315] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[19May2025 03:15:57.326] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap_alt
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[19May2025 03:15:57.331] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_chestplate_ritual as it's serializer returned null
+[19May2025 03:15:57.344] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_chestplate as it's serializer returned null
+[19May2025 03:15:57.351] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_boots_mechanical_crafting as it's serializer returned null
+[19May2025 03:15:57.354] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[19May2025 03:15:57.358] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[19May2025 03:15:57.370] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:etyrite_samruai_boots_smithing as it's serializer returned null
+[19May2025 03:15:57.370] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[19May2025 03:15:57.376] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 28 recipes
+[19May2025 03:15:57.379] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function enemyexpansion:silver_exes
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23407!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[19May2025 03:15:57.478] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:adventure/interact_with_angler_fish: Invalid criterion trigger: spawn:interact_with_angler_fish
+[19May2025 03:15:57.587] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/open_hamster_inventory: Invalid criterion trigger: spawn:open_hamster_inventory
+[19May2025 03:15:57.651] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/went_through_ghostly_mucus: Invalid criterion trigger: spawn:went_through_ghostly_mucus
+[19May2025 03:15:57.695] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/got_stuck_in_mucus: Invalid criterion trigger: spawn:got_stuck_in_mucus
+[19May2025 03:15:57.806] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:main/tame_barina: Failed to parse 'location' field
+[19May2025 03:15:57.808] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/hatch_ant: Invalid criterion trigger: spawn:hatch_ant
+[19May2025 03:15:57.884] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[19May2025 03:15:57.970] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5314 advancements
+[19May2025 03:15:58.013] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[19May2025 03:15:58.016] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[19May2025 03:15:58.037] [main/WARN] [epicfight/]: Can't find particle type epicfight:entity.hit.blunt
+[19May2025 03:15:58.103] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[19May2025 03:15:58.122] [main/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Data loader for unusualprehistory/analyzer loaded 14 jsons
+[19May2025 03:15:58.124] [main/INFO] [com.peeko32213.unusualprehistory.common.data.LootFruitJsonManager/]: Data loader for unusualprehistory/trades loaded 4 jsons
+[19May2025 03:15:58.165] [main/INFO] [com.peeko32213.unusualprehistory.common.data.EncyclopediaJsonManager/]: Data loader for unusualprehistory/encyclopedia loaded 47 jsons
+[19May2025 03:15:58.168] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[19May2025 03:15:58.220] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[19May2025 03:15:58.299] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_flutterfly
+[19May2025 03:16:05.359] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[19May2025 03:16:05.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19May2025 03:16:05.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19May2025 03:16:05.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19May2025 03:16:05.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19May2025 03:16:05.660] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19May2025 03:16:05.870] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19May2025 03:16:05.871] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19May2025 03:16:05.872] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19May2025 03:16:05.873] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19May2025 03:16:05.982] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[19May2025 03:16:05.984] [Thread-5/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[19May2025 03:16:05.986] [Thread-5/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[19May2025 03:16:05.989] [Server thread/INFO] [Puzzles Lib/]: Loading server config for pickupnotifier
+[19May2025 03:16:06.026] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[19May2025 03:16:06.029] [Thread-5/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[19May2025 03:16:06.030] [Thread-5/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[19May2025 03:16:06.034] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[19May2025 03:16:06.037] [Thread-5/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[19May2025 03:16:07.085] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[19May2025 03:16:07.087] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[19May2025 03:16:07.087] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[19May2025 03:16:07.088] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[19May2025 03:16:07.089] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[19May2025 03:16:07.091] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[19May2025 03:16:07.092] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[19May2025 03:16:07.095] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[19May2025 03:16:07.095] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[19May2025 03:16:07.096] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[19May2025 03:16:07.125] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19May2025 03:16:07.863] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19May2025 03:16:07.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "AAAA"
+[19May2025 03:16:29.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19May2025 03:16:46.635] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[19May2025 03:16:48.758] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1707513 ms
+[19May2025 03:16:48.760] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (42.816s)! For help, type "help"
+[19May2025 03:16:49.041] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19May2025 03:16:49.045] [Server thread/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[19May2025 03:16:49.046] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[19May2025 03:16:49.046] [Server thread/INFO] [net.stardustlabs.structorytowers.StructoryTowers/]: Thanks for choosing StructoryTowers!
+[19May2025 03:16:49.047] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
+[19May2025 03:16:49.153] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Registered 17 jsons with items!
+[19May2025 03:16:49.158] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[19May2025 03:16:49.159] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[19May2025 03:16:49.164] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[19May2025 03:17:27.475] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@2c632b98[id=<null>,name=PandagamerP,properties={},legacy=false] (/127.47.174.134:37871): Took too long to log in
+[19May2025 03:17:27.476] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2c632b98[id=<null>,name=PandagamerP,properties={},legacy=false] (/127.47.174.134:37871) lost connection: Took too long to log in
+[19May2025 03:17:27.520] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[19May2025 03:18:30.021] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@59d96627[id=<null>,name=PandagamerP,properties={},legacy=false] (/127.47.174.134:49367): Took too long to log in
+[19May2025 03:18:30.022] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@59d96627[id=<null>,name=PandagamerP,properties={},legacy=false] (/127.47.174.134:49367) lost connection: Took too long to log in
+[19May2025 03:18:30.070] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[19May2025 03:20:43.020] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@453a70b7[id=<null>,name=elpumaricazaza,properties={},legacy=false] (/127.81.207.13:37809) lost connection: Disconnected
+[19May2025 03:20:59.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19May2025 03:20:59.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19May2025 03:20:59.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19May2025 03:21:01.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[AAAA]'/minecraft:overworld
+[19May2025 03:21:01.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[AAAA]'/minecraft:the_nether
+[19May2025 03:21:01.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[AAAA]'/deeperdarker:otherside
+[19May2025 03:21:01.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[AAAA]'/twilightforest:twilight_forest
+[19May2025 03:21:01.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[AAAA]'/aether:the_aether
+[19May2025 03:21:01.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[AAAA]'/minecraft:the_end
+[19May2025 03:21:02.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (AAAA): All chunks are saved
+[19May2025 03:21:02.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19May2025 03:21:02.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[19May2025 03:21:02.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[19May2025 03:21:02.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[19May2025 03:21:02.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19May2025 03:21:02.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19May2025 03:21:02.284] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
